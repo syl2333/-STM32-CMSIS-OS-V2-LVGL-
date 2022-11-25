@@ -1,0 +1,81 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "files.associations": {
+            "*.v+1": "verilog",
+            ".eideignore": "ignore",
+            "lvgl_port.h": "c",
+            "freertos.h": "c",
+            "cmsis_os.h": "c",
+            "lv_conf.h": "c",
+            "lvgl.h": "c"
+        },
+        "files.autoGuessEncoding": true,
+        "[yaml]": {
+            "editor.insertSpaces": true,
+            "editor.tabSize": 4,
+            "editor.autoIndent": "advanced"
+        },
+        "RTT_Studio.Build.Parallel_Jobs": "6"
+    },
+    "extensions": {
+        "recommendations": [
+            "cl.eide",
+            "keroc.hex-fmt",
+            "xiaoyongdong.srecord",
+            "hars.cppsnippets",
+            "zixuanwang.linkerscript",
+            "redhat.vscode-yaml",
+            "dan-c-underwood.arm",
+            "zixuanwang.linkerscript",
+            "marus25.cortex-debug"
+        ]
+    },
+    "launch": {
+        "configurations": [],
+        "compounds": []
+    },
+    "tasks": {
+        "version": "2.0.0",
+        "tasks": [
+            {
+                "label": "build",
+                "type": "shell",
+                "command": "${command:eide.project.build}",
+                "group": "build",
+                "problemMatcher": "$gcc"
+            },
+            {
+                "label": "flash",
+                "type": "shell",
+                "command": "${command:eide.project.uploadToDevice}",
+                "group": "build",
+                "problemMatcher": []
+            },
+            {
+                "label": "build and flash",
+                "type": "shell",
+                "command": "${command:eide.project.buildAndFlash}",
+                "group": "build"
+            },
+            {
+                "label": "rebuild",
+                "type": "shell",
+                "command": "${command:eide.project.rebuild}",
+                "group": "build",
+                "problemMatcher": "$gcc"
+            },
+            {
+                "label": "clean",
+                "type": "shell",
+                "command": "${command:eide.project.clean}",
+                "group": "build",
+                "problemMatcher": []
+            }
+        ]
+    }
+}

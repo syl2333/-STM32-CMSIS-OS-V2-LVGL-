@@ -1,0 +1,12 @@
+.\build\Smart_Watch\obj\lv_bidi.o: f:\code\stm32\Smart_Watch\lvgl\src\misc\lv_bidi.c
+.\build\Smart_Watch\obj\lv_bidi.o: f:\code\stm32\Smart_Watch\lvgl\src\misc\lv_bidi.h
+.\build\Smart_Watch\obj\lv_bidi.o: f:\code\stm32\Smart_Watch\lvgl\src\misc\../lv_conf_internal.h
+.\build\Smart_Watch\obj\lv_bidi.o: f:\code\stm32\Smart_Watch\lvgl\src\misc\../lv_conf_kconfig.h
+.\build\Smart_Watch\obj\lv_bidi.o: .\..\lvgl\src\core\../../lv_conf.h
+.\build\Smart_Watch\obj\lv_bidi.o: f:\code\stm32\Smart_Watch\lvgl\src\misc\lv_txt.h
+.\build\Smart_Watch\obj\lv_bidi.o: f:\code\stm32\Smart_Watch\lvgl\src\misc\lv_area.h
+.\build\Smart_Watch\obj\lv_bidi.o: f:\code\stm32\Smart_Watch\lvgl\src\misc\../font/lv_font.h
+.\build\Smart_Watch\obj\lv_bidi.o: f:\code\stm32\Smart_Watch\lvgl\src\misc\../font/lv_symbol_def.h
+.\build\Smart_Watch\obj\lv_bidi.o: f:\code\stm32\Smart_Watch\lvgl\src\misc\lv_printf.h
+.\build\Smart_Watch\obj\lv_bidi.o: f:\code\stm32\Smart_Watch\lvgl\src\misc\lv_types.h
+.\build\Smart_Watch\obj\lv_bidi.o: f:\code\stm32\Smart_Watch\lvgl\src\misc\../misc/lv_mem.h

@@ -1,0 +1,16 @@
+smart_watch\mpl.o: ..\Drivers\MPU6050\mllite\mpl.c
+smart_watch\mpl.o: ..\Drivers\MPU6050\mllite\storage_manager.h
+smart_watch\mpl.o: ..\Drivers\MPU6050\driver\include\mltypes.h
+smart_watch\mpl.o: ..\Drivers\MPU6050\driver\include\stdint_invensense.h
+smart_watch\mpl.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+smart_watch\mpl.o: D:\keil5\ARM\ARMCC\Bin\..\include\errno.h
+smart_watch\mpl.o: D:\keil5\ARM\ARMCC\Bin\..\include\limits.h
+smart_watch\mpl.o: D:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
+smart_watch\mpl.o: ..\Drivers\MPU6050\driver\include\log.h
+smart_watch\mpl.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+smart_watch\mpl.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdarg.h
+smart_watch\mpl.o: ..\Drivers\MPU6050\mllite\mpl.h
+smart_watch\mpl.o: ..\Drivers\MPU6050\mllite\start_manager.h
+smart_watch\mpl.o: ..\Drivers\MPU6050\mllite\data_builder.h
+smart_watch\mpl.o: ..\Drivers\MPU6050\mllite\results_holder.h
+smart_watch\mpl.o: ..\Drivers\MPU6050\driver\include\mlinclude.h

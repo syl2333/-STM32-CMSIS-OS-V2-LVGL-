@@ -1,0 +1,17 @@
+smart_watch\hal_outputs.o: ..\Drivers\MPU6050\mllite\hal_outputs.c
+smart_watch\hal_outputs.o: ..\Drivers\MPU6050\mem.h
+smart_watch\hal_outputs.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+smart_watch\hal_outputs.o: ..\Drivers\MPU6050\mllite\hal_outputs.h
+smart_watch\hal_outputs.o: ..\Drivers\MPU6050\driver\include\mltypes.h
+smart_watch\hal_outputs.o: ..\Drivers\MPU6050\driver\include\stdint_invensense.h
+smart_watch\hal_outputs.o: D:\keil5\ARM\ARMCC\Bin\..\include\errno.h
+smart_watch\hal_outputs.o: D:\keil5\ARM\ARMCC\Bin\..\include\limits.h
+smart_watch\hal_outputs.o: ..\Drivers\MPU6050\driver\include\log.h
+smart_watch\hal_outputs.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+smart_watch\hal_outputs.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdarg.h
+smart_watch\hal_outputs.o: ..\Drivers\MPU6050\mllite\ml_math_func.h
+smart_watch\hal_outputs.o: ..\Drivers\MPU6050\driver\include\mlmath.h
+smart_watch\hal_outputs.o: D:\keil5\ARM\ARMCC\Bin\..\include\math.h
+smart_watch\hal_outputs.o: ..\Drivers\MPU6050\mllite\start_manager.h
+smart_watch\hal_outputs.o: ..\Drivers\MPU6050\mllite\data_builder.h
+smart_watch\hal_outputs.o: ..\Drivers\MPU6050\mllite\results_holder.h

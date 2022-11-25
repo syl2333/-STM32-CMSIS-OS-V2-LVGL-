@@ -1,0 +1,15 @@
+smart_watch\storage_manager.o: ..\Drivers\MPU6050\mllite\storage_manager.c
+smart_watch\storage_manager.o: ..\Drivers\MPU6050\mem.h
+smart_watch\storage_manager.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+smart_watch\storage_manager.o: ..\Drivers\MPU6050\mllite\storage_manager.h
+smart_watch\storage_manager.o: ..\Drivers\MPU6050\driver\include\mltypes.h
+smart_watch\storage_manager.o: ..\Drivers\MPU6050\driver\include\stdint_invensense.h
+smart_watch\storage_manager.o: D:\keil5\ARM\ARMCC\Bin\..\include\errno.h
+smart_watch\storage_manager.o: D:\keil5\ARM\ARMCC\Bin\..\include\limits.h
+smart_watch\storage_manager.o: D:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
+smart_watch\storage_manager.o: ..\Drivers\MPU6050\driver\include\log.h
+smart_watch\storage_manager.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+smart_watch\storage_manager.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdarg.h
+smart_watch\storage_manager.o: ..\Drivers\MPU6050\mllite\ml_math_func.h
+smart_watch\storage_manager.o: ..\Drivers\MPU6050\driver\include\mlmath.h
+smart_watch\storage_manager.o: D:\keil5\ARM\ARMCC\Bin\..\include\math.h

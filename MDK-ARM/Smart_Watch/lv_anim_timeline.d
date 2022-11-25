@@ -1,0 +1,14 @@
+smart_watch\lv_anim_timeline.o: ..\lvgl\src\misc\lv_anim_timeline.c
+smart_watch\lv_anim_timeline.o: ..\lvgl\src\misc\lv_anim_timeline.h
+smart_watch\lv_anim_timeline.o: ..\lvgl\src\misc\lv_anim.h
+smart_watch\lv_anim_timeline.o: ..\lvgl\src\misc\../lv_conf_internal.h
+smart_watch\lv_anim_timeline.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+smart_watch\lv_anim_timeline.o: ..\lvgl\src\misc\../lv_conf_kconfig.h
+smart_watch\lv_anim_timeline.o: ..\lvgl\src\core\../../lv_conf.h
+smart_watch\lv_anim_timeline.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdbool.h
+smart_watch\lv_anim_timeline.o: D:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
+smart_watch\lv_anim_timeline.o: ..\lvgl\src\misc\lv_mem.h
+smart_watch\lv_anim_timeline.o: D:\keil5\ARM\ARMCC\Bin\..\include\string.h
+smart_watch\lv_anim_timeline.o: ..\lvgl\src\misc\lv_types.h
+smart_watch\lv_anim_timeline.o: ..\lvgl\src\misc\lv_assert.h
+smart_watch\lv_anim_timeline.o: ..\lvgl\src\misc\lv_log.h

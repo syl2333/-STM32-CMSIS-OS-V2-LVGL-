@@ -1,0 +1,10 @@
+.\build\Smart_Watch\obj\lv_anim_timeline.o: f:\code\stm32\Smart_Watch\lvgl\src\misc\lv_anim_timeline.c
+.\build\Smart_Watch\obj\lv_anim_timeline.o: f:\code\stm32\Smart_Watch\lvgl\src\misc\lv_anim_timeline.h
+.\build\Smart_Watch\obj\lv_anim_timeline.o: f:\code\stm32\Smart_Watch\lvgl\src\misc\lv_anim.h
+.\build\Smart_Watch\obj\lv_anim_timeline.o: f:\code\stm32\Smart_Watch\lvgl\src\misc\../lv_conf_internal.h
+.\build\Smart_Watch\obj\lv_anim_timeline.o: f:\code\stm32\Smart_Watch\lvgl\src\misc\../lv_conf_kconfig.h
+.\build\Smart_Watch\obj\lv_anim_timeline.o: .\..\lvgl\src\core\../../lv_conf.h
+.\build\Smart_Watch\obj\lv_anim_timeline.o: f:\code\stm32\Smart_Watch\lvgl\src\misc\lv_mem.h
+.\build\Smart_Watch\obj\lv_anim_timeline.o: f:\code\stm32\Smart_Watch\lvgl\src\misc\lv_types.h
+.\build\Smart_Watch\obj\lv_anim_timeline.o: f:\code\stm32\Smart_Watch\lvgl\src\misc\lv_assert.h
+.\build\Smart_Watch\obj\lv_anim_timeline.o: f:\code\stm32\Smart_Watch\lvgl\src\misc\lv_log.h

@@ -1,0 +1,582 @@
+[2022-01-11 20:53:43]	link failed !, exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x019f5] in <05e1531e335d4e8882675612db5c6f56>:0 
+---
+Warning: L6304W: Duplicate input file .\build\Smart_Watch\.o ignored.
+Error: L6218E: Undefined symbol __aeabi_assert (referred from qrcodegen.o).
+Error: L6218E: Undefined symbol time (referred from lv_lru.o).
+Not enough information to list image symbols.
+Finished: 1 information, 1 warning and 2 error messages.
+
+
+[2022-01-11 20:56:15]	link failed !, exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x019f5] in <05e1531e335d4e8882675612db5c6f56>:0 
+---
+Warning: L6304W: Duplicate input file .\build\Smart_Watch\.o ignored.
+Error: L6218E: Undefined symbol __aeabi_assert (referred from qrcodegen.o).
+Error: L6218E: Undefined symbol time (referred from lv_lru.o).
+Not enough information to list image symbols.
+Finished: 1 information, 1 warning and 2 error messages.
+
+
+[2022-01-11 20:56:53]	link failed !, exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x019f5] in <05e1531e335d4e8882675612db5c6f56>:0 
+---
+Warning: L6304W: Duplicate input file .\build\Smart_Watch\.o ignored.
+Error: L6218E: Undefined symbol __aeabi_assert (referred from qrcodegen.o).
+Error: L6218E: Undefined symbol time (referred from lv_lru.o).
+Not enough information to list image symbols.
+Finished: 1 information, 1 warning and 2 error messages.
+
+
+[2022-01-11 20:57:18]	compilation failed at : "f:\code\stm32\Smart_Watch\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c", exit code: 1
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x000e4] in <05e1531e335d4e8882675612db5c6f56>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018cb] in <05e1531e335d4e8882675612db5c6f56>:0 
+---
+In file included from ./../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h:52,
+                 from ./../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h:62,
+                 from f:/code/stm32/Smart_Watch/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:37:
+./../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h:167:25: error: expected ';' before 'void'
+ static portFORCE_INLINE void vPortSetBASEPRI( uint32_t ulBASEPRI )
+                         ^~~~
+./../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h: In function 'vPortSetBASEPRI':
+./../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h:170:2: error: expected '(' before '{' token
+  {
+  ^
+  (
+./../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h:173:3: error: unknown type name 'msr'
+   msr basepri, ulBASEPRI
+   ^~~
+./../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h:174:2: error: expected '=', ',', ';', 'asm' or '__attribute__' before '}' token
+  }
+  ^
+./../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h:173:7: warning: unused variable 'basepri' [-Wunused-variable]
+   msr basepri, ulBASEPRI
+       ^~~~~~~
+./../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h:178:25: error: expected ';' before 'void'
+ static portFORCE_INLINE void vPortRaiseBASEPRI( void )
+                         ^~~~
+./../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h: In function 'vPortRaiseBASEPRI':
+./../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h:183:2: error: expected '(' before '{' token
+  {
+  ^
+  (
+./../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h:186:3: error: unknown type name 'msr'
+   msr basepri, ulNewBASEPRI
+   ^~~
+./../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h:187:3: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'dsb'
+   dsb
+   ^~~
+./../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h:186:7: warning: unused variable 'basepri' [-Wunused-variable]
+   msr basepri, ulNewBASEPRI
+       ^~~~~~~
+./../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h:193:25: error: expected ';' before 'void'
+ static portFORCE_INLINE void vPortClearBASEPRIFromISR( void )
+                         ^~~~
+./../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h: In function 'vPortClearBASEPRIFromISR':
+./../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h:196:2: error: expected '(' before '{' token
+  {
+  ^
+  (
+./../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h:200:3: error: unknown type name 'msr'
+   msr basepri, #0
+   ^~~
+./../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h:200:16: error: stray '#' in program
+   msr basepri, #0
+                ^
+./../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h:200:17: error: expected identifier or '(' before numeric constant
+   msr basepri, #0
+                 ^
+./../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h:200:7: warning: unused variable 'basepri' [-Wunused-variable]
+   msr basepri, #0
+       ^~~~~~~
+./../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h:162:27: error: unknown type name '__forceinline'
+  #define portFORCE_INLINE __forceinline
+                           ^~~~~~~~~~~~~
+./../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h:205:8: note: in expansion of macro 'portFORCE_INLINE'
+ static portFORCE_INLINE uint32_t ulPortRaiseBASEPRI( void )
+        ^~~~~~~~~~~~~~~~
+./../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h:205:34: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'ulPortRaiseBASEPRI'
+ static portFORCE_INLINE uint32_t ulPortRaiseBASEPRI( void )
+                                  ^~~~~~~~~~~~~~~~~~
+./../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h:205:34: warning: implicit declaration of function 'ulPortRaiseBASEPRI'; did you mean 'vPortRaiseBASEPRI'? [-Wimplicit-function-declaration]
+ static portFORCE_INLINE uint32_t ulPortRaiseBASEPRI( void )
+                                  ^~~~~~~~~~~~~~~~~~
+                                  vPortRaiseBASEPRI
+./../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h:205:54: error: expected expression before 'void'
+ static portFORCE_INLINE uint32_t ulPortRaiseBASEPRI( void )
+                                                      ^~~~
+./../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h:205:60: error: expected ';' before '{' token
+ static portFORCE_INLINE uint32_t ulPortRaiseBASEPRI( void )
+                                                            ^
+                                                            ;
+ {
+ ~                                                           
+f:/code/stm32/Smart_Watch/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:87:19: error: invalid storage class for function 'prvTestWaitCondition'
+ static BaseType_t prvTestWaitCondition( const EventBits_t uxCurrentEventBits, const EventBits_t uxBitsToWaitFor, const BaseType_t xWaitForAllBits ) PRIVILEGED_FUNCTION;
+                   ^~~~~~~~~~~~~~~~~~~~
+f:/code/stm32/Smart_Watch/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:93:21: error: static declaration of 'xEventGroupCreateStatic' follows non-static declaration
+  EventGroupHandle_t xEventGroupCreateStatic( StaticEventGroup_t *pxEventGroupBuffer )
+                     ^~~~~~~~~~~~~~~~~~~~~~~
+In file included from f:/code/stm32/Smart_Watch/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:40:
+./../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h:200:21: note: previous declaration of 'xEventGroupCreateStatic' was here
+  EventGroupHandle_t xEventGroupCreateStatic( StaticEventGroup_t *pxEventGroupBuffer ) PRIVILEGED_FUNCTION;
+                     ^~~~~~~~~~~~~~~~~~~~~~~
+f:/code/stm32/Smart_Watch/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:145:21: error: static declaration of 'xEventGroupCreate' follows non-static declaration
+  EventGroupHandle_t xEventGroupCreate( void )
+                     ^~~~~~~~~~~~~~~~~
+In file included from f:/code/stm32/Smart_Watch/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:40:
+./../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h:147:21: note: previous declaration of 'xEventGroupCreate' was here
+  EventGroupHandle_t xEventGroupCreate( void ) PRIVILEGED_FUNCTION;
+                     ^~~~~~~~~~~~~~~~~
+f:/code/stm32/Smart_Watch/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:191:13: error: static declaration of 'xEventGroupSync' follows non-static declaration
+ EventBits_t xEventGroupSync( EventGroupHandle_t xEventGroup, const EventBits_t uxBitsToSet, const EventBits_t uxBitsToWaitFor, TickType_t xTicksToWait )
+             ^~~~~~~~~~~~~~~
+In file included from f:/code/stm32/Smart_Watch/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:40:
+./../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h:689:13: note: previous declaration of 'xEventGroupSync' was here
+ EventBits_t xEventGroupSync( EventGroupHandle_t xEventGroup, const EventBits_t uxBitsToSet, const EventBits_t uxBitsToWaitFor, TickType_t xTicksToWait ) PRIVILEGED_FUNCTION;
+             ^~~~~~~~~~~~~~~
+In file included from ./../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h:52,
+                 from ./../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h:62,
+                 from f:/code/stm32/Smart_Watch/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:37:
+f:/code/stm32/Smart_Watch/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c: In function 'xEventGroupSync':
+./../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h:90:2: warning: implicit declaration of function '__dsb' [-Wimplicit-function-declaration]
+  __dsb( portSY_FULL_READ_WRITE );           \
+  ^~~~~
+./../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h:746:31: note: in expansion of macro 'portYIELD'
+  #define portYIELD_WITHIN_API portYIELD
+                               ^~~~~~~~~
+f:/code/stm32/Smart_Watch/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:255:4: note: in expansion of macro 'portYIELD_WITHIN_API'
+    portYIELD_WITHIN_API();
+    ^~~~~~~~~~~~~~~~~~~~
+./../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h:91:2: warning: implicit declaration of function '__isb'; did you mean '__itoa'? [-Wimplicit-function-declaration]
+  __isb( portSY_FULL_READ_WRITE );           \
+  ^~~~~
+./../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h:746:31: note: in expansion of macro 'portYIELD'
+  #define portYIELD_WITHIN_API portYIELD
+                               ^~~~~~~~~
+f:/code/stm32/Smart_Watch/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:255:4: note: in expansion of macro 'portYIELD_WITHIN_API'
+    portYIELD_WITHIN_API();
+    ^~~~~~~~~~~~~~~~~~~~
+f:/code/stm32/Smart_Watch/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c: In function 'vPortClearBASEPRIFromISR':
+f:/code/stm32/Smart_Watch/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:311:13: error: static declaration of 'xEventGroupWaitBits' follows non-static declaration
+ EventBits_t xEventGroupWaitBits( EventGroupHandle_t xEventGroup, const EventBits_t uxBitsToWaitFor, const BaseType_t xClearOnExit, const BaseType_t xWaitForAllBits, TickType_t xTicksToWait )
+             ^~~~~~~~~~~~~~~~~~~
+In file included from f:/code/stm32/Smart_Watch/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:40:
+./../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h:295:13: note: previous declaration of 'xEventGroupWaitBits' was here
+ EventBits_t xEventGroupWaitBits( EventGroupHandle_t xEventGroup, const EventBits_t uxBitsToWaitFor, const BaseType_t xClearOnExit, const BaseType_t xWaitForAllBits, TickType_t xTicksToWait ) PRIVILEGED_FUNCTION;
+             ^~~~~~~~~~~~~~~~~~~
+f:/code/stm32/Smart_Watch/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c: In function 'xEventGroupWaitBits':
+f:/code/stm32/Smart_Watch/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:334:23: warning: implicit declaration of function 'prvTestWaitCondition' [-Wimplicit-function-declaration]
+   xWaitConditionMet = prvTestWaitCondition( uxCurrentEventBits, uxBitsToWaitFor, xWaitForAllBits );
+                       ^~~~~~~~~~~~~~~~~~~~
+f:/code/stm32/Smart_Watch/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c: In function 'vPortClearBASEPRIFromISR':
+f:/code/stm32/Smart_Watch/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:461:13: error: static declaration of 'xEventGroupClearBits' follows non-static declaration
+ EventBits_t xEventGroupClearBits( EventGroupHandle_t xEventGroup, const EventBits_t uxBitsToClear )
+             ^~~~~~~~~~~~~~~~~~~~
+In file included from f:/code/stm32/Smart_Watch/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:40:
+./../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h:352:13: note: previous declaration of 'xEventGroupClearBits' was here
+ EventBits_t xEventGroupClearBits( EventGroupHandle_t xEventGroup, const EventBits_t uxBitsToClear ) PRIVILEGED_FUNCTION;
+             ^~~~~~~~~~~~~~~~~~~~
+f:/code/stm32/Smart_Watch/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:490:13: error: static declaration of 'xEventGroupClearBitsFromISR' follows non-static declaration
+  BaseType_t xEventGroupClearBitsFromISR( EventGroupHandle_t xEventGroup, const EventBits_t uxBitsToClear )
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from f:/code/stm32/Smart_Watch/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:40:
+./../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h:408:13: note: previous declaration of 'xEventGroupClearBitsFromISR' was here
+  BaseType_t xEventGroupClearBitsFromISR( EventGroupHandle_t xEventGroup, const EventBits_t uxBitsToClear ) PRIVILEGED_FUNCTION;
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+f:/code/stm32/Smart_Watch/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:503:13: error: static declaration of 'xEventGroupGetBitsFromISR' follows non-static declaration
+ EventBits_t xEventGroupGetBitsFromISR( EventGroupHandle_t xEventGroup )
+             ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from f:/code/stm32/Smart_Watch/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:40:
+./../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h:725:13: note: previous declaration of 'xEventGroupGetBitsFromISR' was here
+ EventBits_t xEventGroupGetBitsFromISR( EventGroupHandle_t xEventGroup ) PRIVILEGED_FUNCTION;
+             ^~~~~~~~~~~~~~~~~~~~~~~~~
+f:/code/stm32/Smart_Watch/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:519:13: error: static declaration of 'xEventGroupSetBits' follows non-static declaration
+ EventBits_t xEventGroupSetBits( EventGroupHandle_t xEventGroup, const EventBits_t uxBitsToSet )
+             ^~~~~~~~~~~~~~~~~~
+In file included from f:/code/stm32/Smart_Watch/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:40:
+./../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h:485:13: note: previous declaration of 'xEventGroupSetBits' was here
+ EventBits_t xEventGroupSetBits( EventGroupHandle_t xEventGroup, const EventBits_t uxBitsToSet ) PRIVILEGED_FUNCTION;
+             ^~~~~~~~~~~~~~~~~~
+f:/code/stm32/Smart_Watch/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:613:6: error: static declaration of 'vEventGroupDelete' follows non-static declaration
+ void vEventGroupDelete( EventGroupHandle_t xEventGroup )
+      ^~~~~~~~~~~~~~~~~
+In file included from f:/code/stm32/Smart_Watch/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:40:
+./../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h:739:6: note: previous declaration of 'vEventGroupDelete' was here
+ void vEventGroupDelete( EventGroupHandle_t xEventGroup ) PRIVILEGED_FUNCTION;
+      ^~~~~~~~~~~~~~~~~
+f:/code/stm32/Smart_Watch/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:657:6: error: static declaration of 'vEventGroupSetBitsCallback' follows non-static declaration
+ void vEventGroupSetBitsCallback( void *pvEventGroup, const uint32_t ulBitsToSet )
+      ^~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from f:/code/stm32/Smart_Watch/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:40:
+./../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h:742:6: note: previous declaration of 'vEventGroupSetBitsCallback' was here
+ void vEventGroupSetBitsCallback( void *pvEventGroup, const uint32_t ulBitsToSet ) PRIVILEGED_FUNCTION;
+      ^~~~~~~~~~~~~~~~~~~~~~~~~~
+f:/code/stm32/Smart_Watch/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:665:6: error: static declaration of 'vEventGroupClearBitsCallback' follows non-static declaration
+ void vEventGroupClearBitsCallback( void *pvEventGroup, const uint32_t ulBitsToClear )
+      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from f:/code/stm32/Smart_Watch/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:40:
+./../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h:743:6: note: previous declaration of 'vEventGroupClearBitsCallback' was here
+ void vEventGroupClearBitsCallback( void *pvEventGroup, const uint32_t ulBitsToClear ) PRIVILEGED_FUNCTION;
+      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+f:/code/stm32/Smart_Watch/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:671:19: error: invalid storage class for function 'prvTestWaitCondition'
+ static BaseType_t prvTestWaitCondition( const EventBits_t uxCurrentEventBits, const EventBits_t uxBitsToWaitFor, const BaseType_t xWaitForAllBits )
+                   ^~~~~~~~~~~~~~~~~~~~
+f:/code/stm32/Smart_Watch/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:708:13: error: static declaration of 'xEventGroupSetBitsFromISR' follows non-static declaration
+  BaseType_t xEventGroupSetBitsFromISR( EventGroupHandle_t xEventGroup, const EventBits_t uxBitsToSet, BaseType_t *pxHigherPriorityTaskWoken )
+             ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from f:/code/stm32/Smart_Watch/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:40:
+./../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h:560:13: note: previous declaration of 'xEventGroupSetBitsFromISR' was here
+  BaseType_t xEventGroupSetBitsFromISR( EventGroupHandle_t xEventGroup, const EventBits_t uxBitsToSet, BaseType_t *pxHigherPriorityTaskWoken ) PRIVILEGED_FUNCTION;
+             ^~~~~~~~~~~~~~~~~~~~~~~~~
+f:/code/stm32/Smart_Watch/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:723:14: error: static declaration of 'uxEventGroupGetNumber' follows non-static declaration
+  UBaseType_t uxEventGroupGetNumber( void* xEventGroup )
+              ^~~~~~~~~~~~~~~~~~~~~
+In file included from f:/code/stm32/Smart_Watch/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:40:
+./../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h:747:14: note: previous declaration of 'uxEventGroupGetNumber' was here
+  UBaseType_t uxEventGroupGetNumber( void* xEventGroup ) PRIVILEGED_FUNCTION;
+              ^~~~~~~~~~~~~~~~~~~~~
+f:/code/stm32/Smart_Watch/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:745:7: error: static declaration of 'vEventGroupSetNumber' follows non-static declaration
+  void vEventGroupSetNumber( void * xEventGroup, UBaseType_t uxEventGroupNumber )
+       ^~~~~~~~~~~~~~~~~~~~
+In file included from f:/code/stm32/Smart_Watch/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:40:
+./../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h:748:7: note: previous declaration of 'vEventGroupSetNumber' was here
+  void vEventGroupSetNumber( void* xEventGroup, UBaseType_t uxEventGroupNumber ) PRIVILEGED_FUNCTION;
+       ^~~~~~~~~~~~~~~~~~~~
+f:/code/stm32/Smart_Watch/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:748:2: error: expected declaration or statement at end of input
+  }
+  ^
+f:/code/stm32/Smart_Watch/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c: In function 'vPortRaiseBASEPRI':
+f:/code/stm32/Smart_Watch/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:748:2: error: expected declaration or statement at end of input
+In file included from ./../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h:52,
+                 from ./../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h:62,
+                 from f:/code/stm32/Smart_Watch/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:37:
+./../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h:180:10: warning: unused variable 'ulNewBASEPRI' [-Wunused-variable]
+ uint32_t ulNewBASEPRI = configMAX_SYSCALL_INTERRUPT_PRIORITY;
+          ^~~~~~~~~~~~
+f:/code/stm32/Smart_Watch/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c: In function 'vPortSetBASEPRI':
+f:/code/stm32/Smart_Watch/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:748:2: error: expected declaration or statement at end of input
+  }
+  ^
+At top level:
+f:/code/stm32/Smart_Watch/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:745:7: warning: 'vEventGroupSetNumber' defined but not used [-Wunused-function]
+  void vEventGroupSetNumber( void * xEventGroup, UBaseType_t uxEventGroupNumber )
+       ^~~~~~~~~~~~~~~~~~~~
+f:/code/stm32/Smart_Watch/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:723:14: warning: 'uxEventGroupGetNumber' defined but not used [-Wunused-function]
+  UBaseType_t uxEventGroupGetNumber( void* xEventGroup )
+              ^~~~~~~~~~~~~~~~~~~~~
+f:/code/stm32/Smart_Watch/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:708:13: warning: 'xEventGroupSetBitsFromISR' defined but not used [-Wunused-function]
+  BaseType_t xEventGroupSetBitsFromISR( EventGroupHandle_t xEventGroup, const EventBits_t uxBitsToSet, BaseType_t *pxHigherPriorityTaskWoken )
+             ^~~~~~~~~~~~~~~~~~~~~~~~~
+f:/code/stm32/Smart_Watch/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:671:19: warning: 'prvTestWaitCondition' defined but not used [-Wunused-function]
+ static BaseType_t prvTestWaitCondition( const EventBits_t uxCurrentEventBits, const EventBits_t uxBitsToWaitFor, const BaseType_t xWaitForAllBits )
+                   ^~~~~~~~~~~~~~~~~~~~
+f:/code/stm32/Smart_Watch/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:665:6: warning: 'vEventGroupClearBitsCallback' defined but not used [-Wunused-function]
+ void vEventGroupClearBitsCallback( void *pvEventGroup, const uint32_t ulBitsToClear )
+      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+f:/code/stm32/Smart_Watch/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:613:6: warning: 'vEventGroupDelete' defined but not used [-Wunused-function]
+ void vEventGroupDelete( EventGroupHandle_t xEventGroup )
+      ^~~~~~~~~~~~~~~~~
+f:/code/stm32/Smart_Watch/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:503:13: warning: 'xEventGroupGetBitsFromISR' defined but not used [-Wunused-function]
+ EventBits_t xEventGroupGetBitsFromISR( EventGroupHandle_t xEventGroup )
+             ^~~~~~~~~~~~~~~~~~~~~~~~~
+f:/code/stm32/Smart_Watch/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:490:13: warning: 'xEventGroupClearBitsFromISR' defined but not used [-Wunused-function]
+  BaseType_t xEventGroupClearBitsFromISR( EventGroupHandle_t xEventGroup, const EventBits_t uxBitsToClear )
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+f:/code/stm32/Smart_Watch/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:311:13: warning: 'xEventGroupWaitBits' defined but not used [-Wunused-function]
+ EventBits_t xEventGroupWaitBits( EventGroupHandle_t xEventGroup, const EventBits_t uxBitsToWaitFor, const BaseType_t xClearOnExit, const BaseType_t xWaitForAllBits, TickType_t xTicksToWait )
+             ^~~~~~~~~~~~~~~~~~~
+f:/code/stm32/Smart_Watch/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:191:13: warning: 'xEventGroupSync' defined but not used [-Wunused-function]
+ EventBits_t xEventGroupSync( EventGroupHandle_t xEventGroup, const EventBits_t uxBitsToSet, const EventBits_t uxBitsToWaitFor, TickType_t xTicksToWait )
+             ^~~~~~~~~~~~~~~
+f:/code/stm32/Smart_Watch/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:145:21: warning: 'xEventGroupCreate' defined but not used [-Wunused-function]
+  EventGroupHandle_t xEventGroupCreate( void )
+                     ^~~~~~~~~~~~~~~~~
+In file included from ./../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h:52,
+                 from ./../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h:62,
+                 from f:/code/stm32/Smart_Watch/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:37:
+./../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h:193:30: warning: 'vPortClearBASEPRIFromISR' defined but not used [-Wunused-function]
+ static portFORCE_INLINE void vPortClearBASEPRIFromISR( void )
+                              ^~~~~~~~~~~~~~~~~~~~~~~~
+f:/code/stm32/Smart_Watch/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:93:21: warning: 'xEventGroupCreateStatic' defined but not used [-Wunused-function]
+  EventGroupHandle_t xEventGroupCreateStatic( StaticEventGroup_t *pxEventGroupBuffer )
+                     ^~~~~~~~~~~~~~~~~~~~~~~
+
+[2022-01-11 20:57:42]	compilation failed at : "f:\code\stm32\Smart_Watch\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c", exit code: 1
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x000e4] in <05e1531e335d4e8882675612db5c6f56>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018cb] in <05e1531e335d4e8882675612db5c6f56>:0 
+---
+In file included from f:/code/stm32/Smart_Watch/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:37:
+In file included from ./../Middlewares/Third_Party/FreeRTOS/Source/include\FreeRTOS.h:62:
+In file included from ./../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h:52:
+./../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F\portmacro.h:167:8: error: unknown type name '__forceinline'
+static portFORCE_INLINE void vPortSetBASEPRI( uint32_t ulBASEPRI )
+       ^
+./../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F\portmacro.h:162:27: note: expanded from macro 'portFORCE_INLINE'
+        #define portFORCE_INLINE __forceinline
+                                 ^
+./../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F\portmacro.h:167:25: error: expected identifier or '('
+static portFORCE_INLINE void vPortSetBASEPRI( uint32_t ulBASEPRI )
+                        ^
+./../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F\portmacro.h:178:8: error: unknown type name '__forceinline'
+static portFORCE_INLINE void vPortRaiseBASEPRI( void )
+       ^
+./../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F\portmacro.h:162:27: note: expanded from macro 'portFORCE_INLINE'
+        #define portFORCE_INLINE __forceinline
+                                 ^
+./../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F\portmacro.h:178:25: error: expected identifier or '('
+static portFORCE_INLINE void vPortRaiseBASEPRI( void )
+                        ^
+./../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F\portmacro.h:193:8: error: unknown type name '__forceinline'
+static portFORCE_INLINE void vPortClearBASEPRIFromISR( void )
+       ^
+./../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F\portmacro.h:162:27: note: expanded from macro 'portFORCE_INLINE'
+        #define portFORCE_INLINE __forceinline
+                                 ^
+./../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F\portmacro.h:193:25: error: expected identifier or '('
+static portFORCE_INLINE void vPortClearBASEPRIFromISR( void )
+                        ^
+./../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F\portmacro.h:205:8: error: unknown type name '__forceinline'
+static portFORCE_INLINE uint32_t ulPortRaiseBASEPRI( void )
+       ^
+./../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F\portmacro.h:162:27: note: expanded from macro 'portFORCE_INLINE'
+        #define portFORCE_INLINE __forceinline
+                                 ^
+./../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F\portmacro.h:205:33: error: expected ';' after top level declarator
+static portFORCE_INLINE uint32_t ulPortRaiseBASEPRI( void )
+                                ^
+                                ;
+f:/code/stm32/Smart_Watch/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:98:3: warning: implicit declaration of function 'vPortRaiseBASEPRI' is invalid in C99 [-Wimplicit-function-declaration]
+                configASSERT( pxEventGroupBuffer );
+                ^
+./../Core/Inc\FreeRTOSConfig.h:154:42: note: expanded from macro 'configASSERT'
+#define configASSERT( x ) if ((x) == 0) {taskDISABLE_INTERRUPTS(); for( ;; );}
+                                         ^
+./../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:212:34: note: expanded from macro 'taskDISABLE_INTERRUPTS'
+#define taskDISABLE_INTERRUPTS()        portDISABLE_INTERRUPTS()
+                                        ^
+./../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F\portmacro.h:105:37: note: expanded from macro 'portDISABLE_INTERRUPTS'
+#define portDISABLE_INTERRUPTS()                                vPortRaiseBASEPRI()
+                                                                ^
+f:/code/stm32/Smart_Watch/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:106:4: warning: implicit declaration of function 'vPortRaiseBASEPRI' is invalid in C99 [-Wimplicit-function-declaration]
+                        configASSERT( xSize == sizeof( EventGroup_t ) );
+                        ^
+./../Core/Inc\FreeRTOSConfig.h:154:42: note: expanded from macro 'configASSERT'
+#define configASSERT( x ) if ((x) == 0) {taskDISABLE_INTERRUPTS(); for( ;; );}
+                                         ^
+./../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:212:34: note: expanded from macro 'taskDISABLE_INTERRUPTS'
+#define taskDISABLE_INTERRUPTS()        portDISABLE_INTERRUPTS()
+                                        ^
+./../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F\portmacro.h:105:37: note: expanded from macro 'portDISABLE_INTERRUPTS'
+#define portDISABLE_INTERRUPTS()                                vPortRaiseBASEPRI()
+                                                                ^
+f:/code/stm32/Smart_Watch/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:198:2: warning: implicit declaration of function 'vPortRaiseBASEPRI' is invalid in C99 [-Wimplicit-function-declaration]
+        configASSERT( ( uxBitsToWaitFor & eventEVENT_BITS_CONTROL_BYTES ) == 0 );
+        ^
+./../Core/Inc\FreeRTOSConfig.h:154:42: note: expanded from macro 'configASSERT'
+#define configASSERT( x ) if ((x) == 0) {taskDISABLE_INTERRUPTS(); for( ;; );}
+                                         ^
+./../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:212:34: note: expanded from macro 'taskDISABLE_INTERRUPTS'
+#define taskDISABLE_INTERRUPTS()        portDISABLE_INTERRUPTS()
+                                        ^
+./../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F\portmacro.h:105:37: note: expanded from macro 'portDISABLE_INTERRUPTS'
+#define portDISABLE_INTERRUPTS()                                vPortRaiseBASEPRI()
+                                                                ^
+f:/code/stm32/Smart_Watch/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:199:2: warning: implicit declaration of function 'vPortRaiseBASEPRI' is invalid in C99 [-Wimplicit-function-declaration]
+        configASSERT( uxBitsToWaitFor != 0 );
+        ^
+./../Core/Inc\FreeRTOSConfig.h:154:42: note: expanded from macro 'configASSERT'
+#define configASSERT( x ) if ((x) == 0) {taskDISABLE_INTERRUPTS(); for( ;; );}
+                                         ^
+./../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:212:34: note: expanded from macro 'taskDISABLE_INTERRUPTS'
+#define taskDISABLE_INTERRUPTS()        portDISABLE_INTERRUPTS()
+                                        ^
+./../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F\portmacro.h:105:37: note: expanded from macro 'portDISABLE_INTERRUPTS'
+#define portDISABLE_INTERRUPTS()                                vPortRaiseBASEPRI()
+                                                                ^
+f:/code/stm32/Smart_Watch/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:202:3: warning: implicit declaration of function 'vPortRaiseBASEPRI' is invalid in C99 [-Wimplicit-function-declaration]
+                configASSERT( !( ( xTaskGetSchedulerState() == taskSCHEDULER_SUSPENDED ) && ( xTicksToWait != 0 ) ) );
+                ^
+./../Core/Inc\FreeRTOSConfig.h:154:42: note: expanded from macro 'configASSERT'
+#define configASSERT( x ) if ((x) == 0) {taskDISABLE_INTERRUPTS(); for( ;; );}
+                                         ^
+./../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:212:34: note: expanded from macro 'taskDISABLE_INTERRUPTS'
+#define taskDISABLE_INTERRUPTS()        portDISABLE_INTERRUPTS()
+                                        ^
+./../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F\portmacro.h:105:37: note: expanded from macro 'portDISABLE_INTERRUPTS'
+#define portDISABLE_INTERRUPTS()                                vPortRaiseBASEPRI()
+                                                                ^
+f:/code/stm32/Smart_Watch/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:255:4: warning: implicit declaration of function '__dsb' is invalid in C99 [-Wimplicit-function-declaration]
+                        portYIELD_WITHIN_API();
+                        ^
+./../Middlewares/Third_Party/FreeRTOS/Source/include\FreeRTOS.h:746:31: note: expanded from macro 'portYIELD_WITHIN_API'
+        #define portYIELD_WITHIN_API portYIELD
+                                     ^
+./../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F\portmacro.h:90:2: note: expanded from macro 'portYIELD'
+        __dsb( portSY_FULL_READ_WRITE );                                                                                        \
+        ^
+f:/code/stm32/Smart_Watch/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:255:4: warning: implicit declaration of function '__isb' is invalid in C99 [-Wimplicit-function-declaration]
+./../Middlewares/Third_Party/FreeRTOS/Source/include\FreeRTOS.h:746:31: note: expanded from macro 'portYIELD_WITHIN_API'
+        #define portYIELD_WITHIN_API portYIELD
+                                     ^
+./../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F\portmacro.h:91:2: note: expanded from macro 'portYIELD'
+        __isb( portSY_FULL_READ_WRITE );                                                                                        \
+        ^
+f:/code/stm32/Smart_Watch/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:320:2: warning: implicit declaration of function 'vPortRaiseBASEPRI' is invalid in C99 [-Wimplicit-function-declaration]
+        configASSERT( xEventGroup );
+        ^
+./../Core/Inc\FreeRTOSConfig.h:154:42: note: expanded from macro 'configASSERT'
+#define configASSERT( x ) if ((x) == 0) {taskDISABLE_INTERRUPTS(); for( ;; );}
+                                         ^
+./../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:212:34: note: expanded from macro 'taskDISABLE_INTERRUPTS'
+#define taskDISABLE_INTERRUPTS()        portDISABLE_INTERRUPTS()
+                                        ^
+./../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F\portmacro.h:105:37: note: expanded from macro 'portDISABLE_INTERRUPTS'
+#define portDISABLE_INTERRUPTS()                                vPortRaiseBASEPRI()
+                                                                ^
+f:/code/stm32/Smart_Watch/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:321:2: warning: implicit declaration of function 'vPortRaiseBASEPRI' is invalid in C99 [-Wimplicit-function-declaration]
+        configASSERT( ( uxBitsToWaitFor & eventEVENT_BITS_CONTROL_BYTES ) == 0 );
+        ^
+./../Core/Inc\FreeRTOSConfig.h:154:42: note: expanded from macro 'configASSERT'
+#define configASSERT( x ) if ((x) == 0) {taskDISABLE_INTERRUPTS(); for( ;; );}
+                                         ^
+./../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:212:34: note: expanded from macro 'taskDISABLE_INTERRUPTS'
+#define taskDISABLE_INTERRUPTS()        portDISABLE_INTERRUPTS()
+                                        ^
+./../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F\portmacro.h:105:37: note: expanded from macro 'portDISABLE_INTERRUPTS'
+#define portDISABLE_INTERRUPTS()                                vPortRaiseBASEPRI()
+                                                                ^
+f:/code/stm32/Smart_Watch/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:322:2: warning: implicit declaration of function 'vPortRaiseBASEPRI' is invalid in C99 [-Wimplicit-function-declaration]
+        configASSERT( uxBitsToWaitFor != 0 );
+        ^
+./../Core/Inc\FreeRTOSConfig.h:154:42: note: expanded from macro 'configASSERT'
+#define configASSERT( x ) if ((x) == 0) {taskDISABLE_INTERRUPTS(); for( ;; );}
+                                         ^
+./../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:212:34: note: expanded from macro 'taskDISABLE_INTERRUPTS'
+#define taskDISABLE_INTERRUPTS()        portDISABLE_INTERRUPTS()
+                                        ^
+./../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F\portmacro.h:105:37: note: expanded from macro 'portDISABLE_INTERRUPTS'
+#define portDISABLE_INTERRUPTS()                                vPortRaiseBASEPRI()
+                                                                ^
+f:/code/stm32/Smart_Watch/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:325:3: warning: implicit declaration of function 'vPortRaiseBASEPRI' is invalid in C99 [-Wimplicit-function-declaration]
+                configASSERT( !( ( xTaskGetSchedulerState() == taskSCHEDULER_SUSPENDED ) && ( xTicksToWait != 0 ) ) );
+                ^
+./../Core/Inc\FreeRTOSConfig.h:154:42: note: expanded from macro 'configASSERT'
+#define configASSERT( x ) if ((x) == 0) {taskDISABLE_INTERRUPTS(); for( ;; );}
+                                         ^
+./../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:212:34: note: expanded from macro 'taskDISABLE_INTERRUPTS'
+#define taskDISABLE_INTERRUPTS()        portDISABLE_INTERRUPTS()
+                                        ^
+./../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F\portmacro.h:105:37: note: expanded from macro 'portDISABLE_INTERRUPTS'
+#define portDISABLE_INTERRUPTS()                                vPortRaiseBASEPRI()
+                                                                ^
+f:/code/stm32/Smart_Watch/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:403:4: warning: implicit declaration of function '__dsb' is invalid in C99 [-Wimplicit-function-declaration]
+                        portYIELD_WITHIN_API();
+                        ^
+./../Middlewares/Third_Party/FreeRTOS/Source/include\FreeRTOS.h:746:31: note: expanded from macro 'portYIELD_WITHIN_API'
+        #define portYIELD_WITHIN_API portYIELD
+                                     ^
+./../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F\portmacro.h:90:2: note: expanded from macro 'portYIELD'
+        __dsb( portSY_FULL_READ_WRITE );                                                                                        \
+        ^
+f:/code/stm32/Smart_Watch/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:403:4: warning: implicit declaration of function '__isb' is invalid in C99 [-Wimplicit-function-declaration]
+./../Middlewares/Third_Party/FreeRTOS/Source/include\FreeRTOS.h:746:31: note: expanded from macro 'portYIELD_WITHIN_API'
+        #define portYIELD_WITHIN_API portYIELD
+                                     ^
+./../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F\portmacro.h:91:2: note: expanded from macro 'portYIELD'
+        __isb( portSY_FULL_READ_WRITE );                                                                                        \
+        ^
+f:/code/stm32/Smart_Watch/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:468:2: warning: implicit declaration of function 'vPortRaiseBASEPRI' is invalid in C99 [-Wimplicit-function-declaration]
+        configASSERT( xEventGroup );
+        ^
+./../Core/Inc\FreeRTOSConfig.h:154:42: note: expanded from macro 'configASSERT'
+#define configASSERT( x ) if ((x) == 0) {taskDISABLE_INTERRUPTS(); for( ;; );}
+                                         ^
+./../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:212:34: note: expanded from macro 'taskDISABLE_INTERRUPTS'
+#define taskDISABLE_INTERRUPTS()        portDISABLE_INTERRUPTS()
+                                        ^
+./../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F\portmacro.h:105:37: note: expanded from macro 'portDISABLE_INTERRUPTS'
+#define portDISABLE_INTERRUPTS()                                vPortRaiseBASEPRI()
+                                                                ^
+f:/code/stm32/Smart_Watch/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:469:2: warning: implicit declaration of function 'vPortRaiseBASEPRI' is invalid in C99 [-Wimplicit-function-declaration]
+        configASSERT( ( uxBitsToClear & eventEVENT_BITS_CONTROL_BYTES ) == 0 );
+        ^
+./../Core/Inc\FreeRTOSConfig.h:154:42: note: expanded from macro 'configASSERT'
+#define configASSERT( x ) if ((x) == 0) {taskDISABLE_INTERRUPTS(); for( ;; );}
+                                         ^
+./../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:212:34: note: expanded from macro 'taskDISABLE_INTERRUPTS'
+#define taskDISABLE_INTERRUPTS()        portDISABLE_INTERRUPTS()
+                                        ^
+./../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F\portmacro.h:105:37: note: expanded from macro 'portDISABLE_INTERRUPTS'
+#define portDISABLE_INTERRUPTS()                                vPortRaiseBASEPRI()
+                                                                ^
+f:/code/stm32/Smart_Watch/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:509:27: warning: implicit declaration of function 'ulPortRaiseBASEPRI' is invalid in C99 [-Wimplicit-function-declaration]
+        uxSavedInterruptStatus = portSET_INTERRUPT_MASK_FROM_ISR();
+                                 ^
+./../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F\portmacro.h:109:44: note: expanded from macro 'portSET_INTERRUPT_MASK_FROM_ISR'
+#define portSET_INTERRUPT_MASK_FROM_ISR()               ulPortRaiseBASEPRI()
+                                                        ^
+f:/code/stm32/Smart_Watch/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:513:2: warning: implicit declaration of function 'vPortSetBASEPRI' is invalid in C99 [-Wimplicit-function-declaration]
+        portCLEAR_INTERRUPT_MASK_FROM_ISR( uxSavedInterruptStatus );
+        ^
+./../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F\portmacro.h:110:46: note: expanded from macro 'portCLEAR_INTERRUPT_MASK_FROM_ISR'
+#define portCLEAR_INTERRUPT_MASK_FROM_ISR(x)    vPortSetBASEPRI(x)
+                                                ^
+f:/code/stm32/Smart_Watch/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:530:2: warning: implicit declaration of function 'vPortRaiseBASEPRI' is invalid in C99 [-Wimplicit-function-declaration]
+        configASSERT( xEventGroup );
+        ^
+./../Core/Inc\FreeRTOSConfig.h:154:42: note: expanded from macro 'configASSERT'
+#define configASSERT( x ) if ((x) == 0) {taskDISABLE_INTERRUPTS(); for( ;; );}
+                                         ^
+./../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:212:34: note: expanded from macro 'taskDISABLE_INTERRUPTS'
+#define taskDISABLE_INTERRUPTS()        portDISABLE_INTERRUPTS()
+                                        ^
+./../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F\portmacro.h:105:37: note: expanded from macro 'portDISABLE_INTERRUPTS'
+#define portDISABLE_INTERRUPTS()                                vPortRaiseBASEPRI()
+                                                                ^
+f:/code/stm32/Smart_Watch/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:531:2: warning: implicit declaration of function 'vPortRaiseBASEPRI' is invalid in C99 [-Wimplicit-function-declaration]
+        configASSERT( ( uxBitsToSet & eventEVENT_BITS_CONTROL_BYTES ) == 0 );
+        ^
+./../Core/Inc\FreeRTOSConfig.h:154:42: note: expanded from macro 'configASSERT'
+#define configASSERT( x ) if ((x) == 0) {taskDISABLE_INTERRUPTS(); for( ;; );}
+                                         ^
+./../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:212:34: note: expanded from macro 'taskDISABLE_INTERRUPTS'
+#define taskDISABLE_INTERRUPTS()        portDISABLE_INTERRUPTS()
+                                        ^
+./../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F\portmacro.h:105:37: note: expanded from macro 'portDISABLE_INTERRUPTS'
+#define portDISABLE_INTERRUPTS()                                vPortRaiseBASEPRI()
+                                                                ^
+f:/code/stm32/Smart_Watch/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:626:4: warning: implicit declaration of function 'vPortRaiseBASEPRI' is invalid in C99 [-Wimplicit-function-declaration]
+                        configASSERT( pxTasksWaitingForBits->xListEnd.pxNext != ( const ListItem_t * ) &( pxTasksWaitingForBits->xListEnd ) );
+                        ^
+./../Core/Inc\FreeRTOSConfig.h:154:42: note: expanded from macro 'configASSERT'
+#define configASSERT( x ) if ((x) == 0) {taskDISABLE_INTERRUPTS(); for( ;; );}
+                                         ^
+./../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:212:34: note: expanded from macro 'taskDISABLE_INTERRUPTS'
+#define taskDISABLE_INTERRUPTS()        portDISABLE_INTERRUPTS()
+                                        ^
+./../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F\portmacro.h:105:37: note: expanded from macro 'portDISABLE_INTERRUPTS'
+#define portDISABLE_INTERRUPTS()                                vPortRaiseBASEPRI()
+                                                                ^
+20 warnings and 8 errors generated.
+
+[2022-01-11 20:59:52]	link failed !, exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x019f5] in <05e1531e335d4e8882675612db5c6f56>:0 
+---
+Warning: L6304W: Duplicate input file .\build\Smart_Watch\.o ignored.
+Fatal error: L6031U: Could not open scatter description file f:/code/stm32/Smart_Watch/MDK-ARM/undefined: No such file or directory
+Not enough information to list image symbols.
+Not enough information to list the image map.
+Finished: 2 information, 1 warning, 0 error and 1 fatal error messages.
+
+
+[2022-01-11 21:00:10]	link failed !, exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x019f5] in <05e1531e335d4e8882675612db5c6f56>:0 
+---
+Warning: L6304W: Duplicate input file .\build\Smart_Watch\.o ignored.
+Error: L6218E: Undefined symbol __aeabi_assert (referred from qrcodegen.o).
+Error: L6218E: Undefined symbol time (referred from lv_lru.o).
+Not enough information to list image symbols.
+Finished: 1 information, 1 warning and 2 error messages.
+
+

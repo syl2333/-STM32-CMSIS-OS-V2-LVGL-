@@ -1,0 +1,9 @@
+smart_watch\qrcodegen.o: ..\lvgl\src\extra\libs\qrcode\qrcodegen.c
+smart_watch\qrcodegen.o: D:\keil5\ARM\ARMCC\Bin\..\include\assert.h
+smart_watch\qrcodegen.o: D:\keil5\ARM\ARMCC\Bin\..\include\limits.h
+smart_watch\qrcodegen.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+smart_watch\qrcodegen.o: D:\keil5\ARM\ARMCC\Bin\..\include\string.h
+smart_watch\qrcodegen.o: ..\lvgl\src\extra\libs\qrcode\qrcodegen.h
+smart_watch\qrcodegen.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdbool.h
+smart_watch\qrcodegen.o: D:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
+smart_watch\qrcodegen.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h

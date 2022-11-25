@@ -1,0 +1,11 @@
+smart_watch\start_manager.o: ..\Drivers\MPU6050\mllite\start_manager.c
+smart_watch\start_manager.o: ..\Drivers\MPU6050\mem.h
+smart_watch\start_manager.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+smart_watch\start_manager.o: ..\Drivers\MPU6050\driver\include\log.h
+smart_watch\start_manager.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+smart_watch\start_manager.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdarg.h
+smart_watch\start_manager.o: ..\Drivers\MPU6050\mllite\start_manager.h
+smart_watch\start_manager.o: ..\Drivers\MPU6050\driver\include\mltypes.h
+smart_watch\start_manager.o: ..\Drivers\MPU6050\driver\include\stdint_invensense.h
+smart_watch\start_manager.o: D:\keil5\ARM\ARMCC\Bin\..\include\errno.h
+smart_watch\start_manager.o: D:\keil5\ARM\ARMCC\Bin\..\include\limits.h

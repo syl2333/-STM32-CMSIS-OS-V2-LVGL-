@@ -1,0 +1,11 @@
+smart_watch\ml_math_func.o: ..\Drivers\MPU6050\mllite\ml_math_func.c
+smart_watch\ml_math_func.o: ..\Drivers\MPU6050\driver\include\mlmath.h
+smart_watch\ml_math_func.o: D:\keil5\ARM\ARMCC\Bin\..\include\math.h
+smart_watch\ml_math_func.o: ..\Drivers\MPU6050\mllite\ml_math_func.h
+smart_watch\ml_math_func.o: ..\Drivers\MPU6050\driver\include\mltypes.h
+smart_watch\ml_math_func.o: ..\Drivers\MPU6050\driver\include\stdint_invensense.h
+smart_watch\ml_math_func.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+smart_watch\ml_math_func.o: D:\keil5\ARM\ARMCC\Bin\..\include\errno.h
+smart_watch\ml_math_func.o: D:\keil5\ARM\ARMCC\Bin\..\include\limits.h
+smart_watch\ml_math_func.o: ..\Drivers\MPU6050\driver\include\mlinclude.h
+smart_watch\ml_math_func.o: ..\Drivers\MPU6050\mem.h
